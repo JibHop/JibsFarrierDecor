@@ -1,7 +1,6 @@
 package com.jib.jibsfarrierdecor.item;
 
 import com.jib.jibsfarrierdecor.JibsFarrierDecor;
-import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -14,6 +13,12 @@ public class ModItems {
 
 public static final RegistryObject<Item> HORSESHOE = ITEMS.register("horseshoe",
         () -> new Item(new Item.Properties().tab(ModCreativeModeTab.FARRIERDECO)));
+
+    public static final RegistryObject<Item> HOOF_LEVELLER = ITEMS.register("hoof_leveller",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.FARRIERDECO)));
+
+    public static final RegistryObject<Item> HOOF_NIPPERS = ITEMS.register("hoof_nippers",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.FARRIERDECO)));
 
 public static void register(IEventBus eventBus) {
     ITEMS.register(eventBus);
