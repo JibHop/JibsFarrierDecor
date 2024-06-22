@@ -13,7 +13,7 @@ public class ModItems {
             DeferredRegister.create(ForgeRegistries.ITEMS, JibsFarrierDecor.MOD_ID);
 
 public static final RegistryObject<Item> HORSESHOE = ITEMS.register("horseshoe",
-        () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_DECORATIONS)));
+        () -> new Item(new Item.Properties().tab(ModCreativeModeTab.FARRIERDECO)));
 
 public static void register(IEventBus eventBus) {
     ITEMS.register(eventBus);
