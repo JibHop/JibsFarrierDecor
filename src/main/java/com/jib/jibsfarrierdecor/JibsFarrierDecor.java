@@ -1,5 +1,6 @@
 package com.jib.jibsfarrierdecor;
 
+import com.jib.jibsfarrierdecor.block.ModBlocks;
 import com.jib.jibsfarrierdecor.item.ModItems;
 import com.mojang.logging.LogUtils;
 import net.minecraft.world.level.block.Block;
@@ -31,6 +32,7 @@ public class JibsFarrierDecor
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         ModItems.register(eventBus);
+        ModBlocks.register(eventBus);
 
         eventBus.addListener(this::setup);
 
