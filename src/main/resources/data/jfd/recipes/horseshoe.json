@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "minecraft:iron_ingot"
+  },
+  "result": "jfd:horseshoe",
+  "experience": 0.7,
+  "cookingtime": 200
+}
