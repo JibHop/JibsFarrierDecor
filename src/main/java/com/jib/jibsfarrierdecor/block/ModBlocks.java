@@ -1,6 +1,7 @@
 package com.jib.jibsfarrierdecor.block;
 
 import com.jib.jibsfarrierdecor.JibsFarrierDecor;
+import com.jib.jibsfarrierdecor.block.custom.hoofjacks.BrownHoofJack;
 import com.jib.jibsfarrierdecor.item.ModCreativeModeTab;
 import com.jib.jibsfarrierdecor.item.ModItems;
 import net.minecraft.world.item.BlockItem;
@@ -9,6 +10,7 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.material.Material;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -20,9 +22,8 @@ public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS =
             DeferredRegister.create(ForgeRegistries.BLOCKS, JibsFarrierDecor.MOD_ID);
 
-    public static final RegistryObject<Block> TEMP_BLOCK = registerblock("temp_block",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.SAND)
-            ), ModCreativeModeTab.FARRIERDECO);
+    public static final RegistryObject<Block> BROWN_HOOFJACK = registerblock("brown_hoofjack",
+            () -> new BrownHoofJack(BlockBehaviour.Properties.of(Material.METAL).noOcclusion()), ModCreativeModeTab.FARRIERDECO);
 
 
 
