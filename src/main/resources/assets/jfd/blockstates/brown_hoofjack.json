@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": {"model": "jfd:block/brown_hoofjack" },
+    "facing=east": {"model": "jfd:block/brown_hoofjack", "y": 90 },
+    "facing=south": {"model": "jfd:block/brown_hoofjack", "y": 180 },
+    "facing=west": {"model": "jfd:block/brown_hoofjack", "y": 270 }
+  }
+}

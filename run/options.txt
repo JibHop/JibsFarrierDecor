@@ -1,5 +1,5 @@
 version:2975
-autoJump:true
+autoJump:false
 autoSuggestions:true
 chatColors:true
 chatLinks:true
@@ -15,7 +15,7 @@ showSubtitles:false
 touchscreen:false
 fullscreen:false
 bobView:true
-toggleCrouch:false
+toggleCrouch:true
 toggleSprint:false
 darkMojangStudiosBackground:false
 hideLightningFlashes:false
@@ -81,13 +81,13 @@ key_key.left:key.keyboard.a
 key_key.back:key.keyboard.s
 key_key.right:key.keyboard.d
 key_key.jump:key.keyboard.space
-key_key.sneak:key.keyboard.left.shift
+key_key.sneak:key.mouse.middle
 key_key.sprint:key.keyboard.left.control
 key_key.drop:key.keyboard.q
 key_key.inventory:key.keyboard.e
 key_key.chat:key.keyboard.t
-key_key.playerlist:key.keyboard.tab
-key_key.pickItem:key.mouse.middle
+key_key.playerlist:key.keyboard.unknown
+key_key.pickItem:key.keyboard.tab
 key_key.command:key.keyboard.slash
 key_key.socialInteractions:key.keyboard.unknown
 key_key.screenshot:key.keyboard.f2
@@ -125,7 +125,7 @@ key_key.jei.toggleCheatMode:key.keyboard.unknown
 key_key.jei.cheatOneItem:key.mouse.left
 key_key.jei.cheatOneItem2:key.mouse.right
 key_key.jei.cheatItemStack:key.mouse.left:SHIFT
-key_key.jei.cheatItemStack2:key.mouse.middle
+key_key.jei.cheatItemStack2:key.keyboard.unknown
 key_key.jei.toggleCheatModeConfigButton:key.mouse.left:CONTROL
 key_key.jei.toggleEditMode:key.keyboard.unknown
 key_key.jei.toggleHideIngredient:key.mouse.left:CONTROL
