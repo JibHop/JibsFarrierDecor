@@ -9,6 +9,22 @@
   "item.jfs.apple": "4pple",
 
   "block.jfd.brown_hoofjack": "Brown HoofJack",
+  "block.jfd.red_hoofjack": "Red HoofJack",
+  "block.jfd.orange_hoofjack": "Orange HoofJack",
+  "block.jfd.yellow_hoofjack": "Yellow HoofJack",
+  "block.jfd.lime_hoofjack": "Lime HoofJack",
+  "block.jfd.green_hoofjack": "Green HoofJack",
+  "block.jfd.cyan_hoofjack": "Cyan HoofJack",
+  "block.jfd.light_blue_hoofjack": "Light Blue HoofJack",
+  "block.jfd.blue_hoofjack": "Blue HoofJack",
+  "block.jfd.purple_hoofjack": "Purple HoofJack",
+  "block.jfd.magenta_hoofjack": "Magenta HoofJack",
+  "block.jfd.pink_hoofjack": "Pink HoofJack",
+  "block.jfd.white_hoofjack": "White HoofJack",
+  "block.jfd.light_gray_hoofjack": "Light Gray HoofJack",
+  "block.jfd.gray_hoofjack": "Gray HoofJack",
+  "block.jfd.black_hoofjack": "Black HoofJack",
+
 
   "itemGroup.farrierdeco": "Jibs Farrier Deco"
 }

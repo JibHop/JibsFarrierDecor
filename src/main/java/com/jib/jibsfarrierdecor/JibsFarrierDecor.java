@@ -43,9 +43,44 @@ public class JibsFarrierDecor
         MinecraftForge.EVENT_BUS.register(this);
     }
 
+
+
     private void clientSetup(final FMLClientSetupEvent event) {
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.BROWN_HOOFJACK.get(), RenderType.solid());
+
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.RED_HOOFJACK.get(), RenderType.solid());
+
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.ORANGE_HOOFJACK.get(), RenderType.solid());
+
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.YELLOW_HOOFJACK.get(), RenderType.solid());
+
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.LIME_HOOFJACK.get(), RenderType.solid());
+
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.GREEN_HOOFJACK.get(), RenderType.solid());
+
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.CYAN_HOOFJACK.get(), RenderType.solid());
+
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.LIGHT_BLUE_HOOFJACK.get(), RenderType.solid());
+
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.BLUE_HOOFJACK.get(), RenderType.solid());
+
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.PURPLE_HOOFJACK.get(), RenderType.solid());
+
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.MAGENTA_HOOFJACK.get(), RenderType.solid());
+
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.PINK_HOOFJACK.get(), RenderType.solid());
+
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.BLACK_HOOFJACK.get(), RenderType.solid());
+
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.GRAY_HOOFJACK.get(), RenderType.solid());
+
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.LIGHT_GRAY_HOOFJACK.get(), RenderType.solid());
+
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.WHITE_HOOFJACK.get(), RenderType.solid());
     }
+
+
+
 
     private void setup(final FMLCommonSetupEvent event) {
         // some preinit code

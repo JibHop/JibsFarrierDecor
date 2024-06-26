@@ -8,7 +8,6 @@ import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.material.Material;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -24,6 +23,52 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> BROWN_HOOFJACK = registerblock("brown_hoofjack",
             () -> new BrownHoofJack(BlockBehaviour.Properties.of(Material.METAL).noOcclusion()), ModCreativeModeTab.FARRIERDECO);
+
+    public static final RegistryObject<Block> RED_HOOFJACK = registerblock("red_hoofjack",
+            () -> new BrownHoofJack(BlockBehaviour.Properties.of(Material.METAL).noOcclusion()), ModCreativeModeTab.FARRIERDECO);
+
+    public static final RegistryObject<Block> ORANGE_HOOFJACK = registerblock("orange_hoofjack",
+            () -> new BrownHoofJack(BlockBehaviour.Properties.of(Material.METAL).noOcclusion()), ModCreativeModeTab.FARRIERDECO);
+
+    public static final RegistryObject<Block> YELLOW_HOOFJACK = registerblock("yellow_hoofjack",
+            () -> new BrownHoofJack(BlockBehaviour.Properties.of(Material.METAL).noOcclusion()), ModCreativeModeTab.FARRIERDECO);
+
+    public static final RegistryObject<Block> LIME_HOOFJACK = registerblock("lime_hoofjack",
+            () -> new BrownHoofJack(BlockBehaviour.Properties.of(Material.METAL).noOcclusion()), ModCreativeModeTab.FARRIERDECO);
+
+    public static final RegistryObject<Block> GREEN_HOOFJACK = registerblock("green_hoofjack",
+            () -> new BrownHoofJack(BlockBehaviour.Properties.of(Material.METAL).noOcclusion()), ModCreativeModeTab.FARRIERDECO);
+
+    public static final RegistryObject<Block> CYAN_HOOFJACK = registerblock("cyan_hoofjack",
+            () -> new BrownHoofJack(BlockBehaviour.Properties.of(Material.METAL).noOcclusion()), ModCreativeModeTab.FARRIERDECO);
+
+    public static final RegistryObject<Block> LIGHT_BLUE_HOOFJACK = registerblock("light_blue_hoofjack",
+            () -> new BrownHoofJack(BlockBehaviour.Properties.of(Material.METAL).noOcclusion()), ModCreativeModeTab.FARRIERDECO);
+
+    public static final RegistryObject<Block> BLUE_HOOFJACK = registerblock("blue_hoofjack",
+            () -> new BrownHoofJack(BlockBehaviour.Properties.of(Material.METAL).noOcclusion()), ModCreativeModeTab.FARRIERDECO);
+
+    public static final RegistryObject<Block> PURPLE_HOOFJACK = registerblock("purple_hoofjack",
+            () -> new BrownHoofJack(BlockBehaviour.Properties.of(Material.METAL).noOcclusion()), ModCreativeModeTab.FARRIERDECO);
+
+    public static final RegistryObject<Block> MAGENTA_HOOFJACK = registerblock("magenta_hoofjack",
+            () -> new BrownHoofJack(BlockBehaviour.Properties.of(Material.METAL).noOcclusion()), ModCreativeModeTab.FARRIERDECO);
+
+    public static final RegistryObject<Block> PINK_HOOFJACK = registerblock("pink_hoofjack",
+            () -> new BrownHoofJack(BlockBehaviour.Properties.of(Material.METAL).noOcclusion()), ModCreativeModeTab.FARRIERDECO);
+
+    public static final RegistryObject<Block> BLACK_HOOFJACK = registerblock("black_hoofjack",
+            () -> new BrownHoofJack(BlockBehaviour.Properties.of(Material.METAL).noOcclusion()), ModCreativeModeTab.FARRIERDECO);
+
+    public static final RegistryObject<Block> GRAY_HOOFJACK = registerblock("gray_hoofjack",
+            () -> new BrownHoofJack(BlockBehaviour.Properties.of(Material.METAL).noOcclusion()), ModCreativeModeTab.FARRIERDECO);
+
+    public static final RegistryObject<Block> LIGHT_GRAY_HOOFJACK = registerblock("light_gray_hoofjack",
+            () -> new BrownHoofJack(BlockBehaviour.Properties.of(Material.METAL).noOcclusion()), ModCreativeModeTab.FARRIERDECO);
+
+    public static final RegistryObject<Block> WHITE_HOOFJACK = registerblock("white_hoofjack",
+            () -> new BrownHoofJack(BlockBehaviour.Properties.of(Material.METAL).noOcclusion()), ModCreativeModeTab.FARRIERDECO);
+
 
 
 
