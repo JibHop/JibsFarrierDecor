@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "X",
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:light_blue_concrete"
+    },
+    "X":
+      {
+        "item": "minecraft:iron_ingot"
+      }
+  },
+  "result": {
+    "item": "jfd:light_blue_hoofjack"
+  }
+}

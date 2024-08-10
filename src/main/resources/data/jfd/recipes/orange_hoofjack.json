@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "X",
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:orange_concrete"
+    },
+    "X":
+      {
+        "item": "minecraft:iron_ingot"
+      }
+  },
+  "result": {
+    "item": "jfd:orange_hoofjack"
+  }
+}
