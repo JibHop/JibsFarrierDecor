@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": {"model": "jfd:block/iron_hammer_block" },
+    "facing=east": {"model": "jfd:block/iron_hammer_block", "y": 90 },
+    "facing=south": {"model": "jfd:block/iron_hammer_block", "y": 180 },
+    "facing=west": {"model": "jfd:block/iron_hammer_block", "y": 270 }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": {"model": "jfd:block/toolbox" },
+    "facing=east": {"model": "jfd:block/toolbox", "y": 90 },
+    "facing=south": {"model": "jfd:block/toolbox", "y": 180 },
+    "facing=west": {"model": "jfd:block/toolbox", "y": 270 }
+  }
+}

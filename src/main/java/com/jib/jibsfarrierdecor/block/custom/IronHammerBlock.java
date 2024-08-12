@@ -1,4 +1,4 @@
-package com.jib.jibsfarrierdecor.block.custom.hoofjacks;
+package com.jib.jibsfarrierdecor.block.custom;
 
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.item.context.BlockPlaceContext;
@@ -13,14 +13,14 @@ import net.minecraft.world.level.block.state.properties.DirectionProperty;
 import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.phys.shapes.VoxelShape;
 
-public class PurpleHoofJack extends Block {
+public class IronHammerBlock extends Block {
     public static final DirectionProperty FACING = BlockStateProperties.HORIZONTAL_FACING;
 
-    public PurpleHoofJack(Properties properties) {
-        super(properties);
+    public IronHammerBlock(Properties pProperties) {
+        super(pProperties);
     }
 
-    private static final VoxelShape SHAPE =  Block.box(0, 0, 0, 16, 11, 16);
+    private static final VoxelShape SHAPE =  Block.box(0, 0, 0, 16, 4, 16);
 
     @Override
     public VoxelShape getShape(BlockState pState, BlockGetter pLevel, BlockPos pPos, CollisionContext pContext) {

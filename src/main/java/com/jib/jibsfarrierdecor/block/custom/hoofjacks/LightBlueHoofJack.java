@@ -20,8 +20,7 @@ public class LightBlueHoofJack extends Block {
         super(properties);
     }
 
-    private static final VoxelShape SHAPE =  Block.box(0, 0, 0, 4, 11, 4);
-
+    private static final VoxelShape SHAPE =  Block.box(0, 0, 0, 16, 11, 16);
     @Override
     public VoxelShape getShape(BlockState pState, BlockGetter pLevel, BlockPos pPos, CollisionContext pContext) {
         return SHAPE;

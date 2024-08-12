@@ -27,6 +27,8 @@
 
   "block.jfd.farrierstable_block": "Farriers Table",
   "block.jfd.green_farrierstable_block": "Green Farriers Table",
+  "block.jfd.iron_hammer_block": "Iron and Hammer",
+  "block.jfd.toolbox": "ToolBox",
 
 
   "itemGroup.farrierdeco": "Jibs Farrier Deco"
