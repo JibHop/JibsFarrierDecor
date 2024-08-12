@@ -5,7 +5,7 @@ import com.jib.jibsfarrierdecor.block.custom.FarrierstableBlock;
 import com.jib.jibsfarrierdecor.block.custom.GreenFarrierstableBlock;
 import com.jib.jibsfarrierdecor.block.custom.IronHammerBlock;
 import com.jib.jibsfarrierdecor.block.custom.ToolBox;
-import com.jib.jibsfarrierdecor.block.custom.hoofjacks.BrownHoofJack;
+import com.jib.jibsfarrierdecor.block.custom.hoofjacks.*;
 import com.jib.jibsfarrierdecor.item.ModCreativeModeTab;
 import com.jib.jibsfarrierdecor.item.ModItems;
 import net.minecraft.world.item.BlockItem;
@@ -29,49 +29,49 @@ public class ModBlocks {
             () -> new BrownHoofJack(BlockBehaviour.Properties.of(Material.METAL).noOcclusion()), ModCreativeModeTab.FARRIERDECO);
 
     public static final RegistryObject<Block> RED_HOOFJACK = registerblock("red_hoofjack",
-            () -> new BrownHoofJack(BlockBehaviour.Properties.of(Material.METAL).noOcclusion()), ModCreativeModeTab.FARRIERDECO);
+            () -> new RedHoofJack(BlockBehaviour.Properties.of(Material.METAL).noOcclusion()), ModCreativeModeTab.FARRIERDECO);
 
     public static final RegistryObject<Block> ORANGE_HOOFJACK = registerblock("orange_hoofjack",
-            () -> new BrownHoofJack(BlockBehaviour.Properties.of(Material.METAL).noOcclusion()), ModCreativeModeTab.FARRIERDECO);
+            () -> new OrangeHoofJack(BlockBehaviour.Properties.of(Material.METAL).noOcclusion()), ModCreativeModeTab.FARRIERDECO);
 
     public static final RegistryObject<Block> YELLOW_HOOFJACK = registerblock("yellow_hoofjack",
-            () -> new BrownHoofJack(BlockBehaviour.Properties.of(Material.METAL).noOcclusion()), ModCreativeModeTab.FARRIERDECO);
+            () -> new YellowHoofJack(BlockBehaviour.Properties.of(Material.METAL).noOcclusion()), ModCreativeModeTab.FARRIERDECO);
 
     public static final RegistryObject<Block> LIME_HOOFJACK = registerblock("lime_hoofjack",
-            () -> new BrownHoofJack(BlockBehaviour.Properties.of(Material.METAL).noOcclusion()), ModCreativeModeTab.FARRIERDECO);
+            () -> new LimeHoofJack(BlockBehaviour.Properties.of(Material.METAL).noOcclusion()), ModCreativeModeTab.FARRIERDECO);
 
     public static final RegistryObject<Block> GREEN_HOOFJACK = registerblock("green_hoofjack",
-            () -> new BrownHoofJack(BlockBehaviour.Properties.of(Material.METAL).noOcclusion()), ModCreativeModeTab.FARRIERDECO);
+            () -> new GreenHoofJack(BlockBehaviour.Properties.of(Material.METAL).noOcclusion()), ModCreativeModeTab.FARRIERDECO);
 
     public static final RegistryObject<Block> CYAN_HOOFJACK = registerblock("cyan_hoofjack",
-            () -> new BrownHoofJack(BlockBehaviour.Properties.of(Material.METAL).noOcclusion()), ModCreativeModeTab.FARRIERDECO);
+            () -> new CyanHoofJack(BlockBehaviour.Properties.of(Material.METAL).noOcclusion()), ModCreativeModeTab.FARRIERDECO);
 
     public static final RegistryObject<Block> LIGHT_BLUE_HOOFJACK = registerblock("light_blue_hoofjack",
-            () -> new BrownHoofJack(BlockBehaviour.Properties.of(Material.METAL).noOcclusion()), ModCreativeModeTab.FARRIERDECO);
+            () -> new LightBlueHoofJack(BlockBehaviour.Properties.of(Material.METAL).noOcclusion()), ModCreativeModeTab.FARRIERDECO);
 
     public static final RegistryObject<Block> BLUE_HOOFJACK = registerblock("blue_hoofjack",
-            () -> new BrownHoofJack(BlockBehaviour.Properties.of(Material.METAL).noOcclusion()), ModCreativeModeTab.FARRIERDECO);
+            () -> new BlueHoofJack(BlockBehaviour.Properties.of(Material.METAL).noOcclusion()), ModCreativeModeTab.FARRIERDECO);
 
     public static final RegistryObject<Block> PURPLE_HOOFJACK = registerblock("purple_hoofjack",
-            () -> new BrownHoofJack(BlockBehaviour.Properties.of(Material.METAL).noOcclusion()), ModCreativeModeTab.FARRIERDECO);
+            () -> new PurpleHoofJack(BlockBehaviour.Properties.of(Material.METAL).noOcclusion()), ModCreativeModeTab.FARRIERDECO);
 
     public static final RegistryObject<Block> MAGENTA_HOOFJACK = registerblock("magenta_hoofjack",
-            () -> new BrownHoofJack(BlockBehaviour.Properties.of(Material.METAL).noOcclusion()), ModCreativeModeTab.FARRIERDECO);
+            () -> new MagentaHoofJack(BlockBehaviour.Properties.of(Material.METAL).noOcclusion()), ModCreativeModeTab.FARRIERDECO);
 
     public static final RegistryObject<Block> PINK_HOOFJACK = registerblock("pink_hoofjack",
-            () -> new BrownHoofJack(BlockBehaviour.Properties.of(Material.METAL).noOcclusion()), ModCreativeModeTab.FARRIERDECO);
+            () -> new PinkHoofJack(BlockBehaviour.Properties.of(Material.METAL).noOcclusion()), ModCreativeModeTab.FARRIERDECO);
 
     public static final RegistryObject<Block> BLACK_HOOFJACK = registerblock("black_hoofjack",
-            () -> new BrownHoofJack(BlockBehaviour.Properties.of(Material.METAL).noOcclusion()), ModCreativeModeTab.FARRIERDECO);
+            () -> new BlackHoofJack(BlockBehaviour.Properties.of(Material.METAL).noOcclusion()), ModCreativeModeTab.FARRIERDECO);
 
     public static final RegistryObject<Block> GRAY_HOOFJACK = registerblock("gray_hoofjack",
-            () -> new BrownHoofJack(BlockBehaviour.Properties.of(Material.METAL).noOcclusion()), ModCreativeModeTab.FARRIERDECO);
+            () -> new GrayHoofJack(BlockBehaviour.Properties.of(Material.METAL).noOcclusion()), ModCreativeModeTab.FARRIERDECO);
 
     public static final RegistryObject<Block> LIGHT_GRAY_HOOFJACK = registerblock("light_gray_hoofjack",
-            () -> new BrownHoofJack(BlockBehaviour.Properties.of(Material.METAL).noOcclusion()), ModCreativeModeTab.FARRIERDECO);
+            () -> new LightGrayHoofJack(BlockBehaviour.Properties.of(Material.METAL).noOcclusion()), ModCreativeModeTab.FARRIERDECO);
 
     public static final RegistryObject<Block> WHITE_HOOFJACK = registerblock("white_hoofjack",
-            () -> new BrownHoofJack(BlockBehaviour.Properties.of(Material.METAL).noOcclusion()), ModCreativeModeTab.FARRIERDECO);
+            () -> new WhiteHoofJack(BlockBehaviour.Properties.of(Material.METAL).noOcclusion()), ModCreativeModeTab.FARRIERDECO);
     public static final RegistryObject<Block> FARRIERSTABLE_BLOCK = registerblock("farrierstable_block",
             () -> new FarrierstableBlock(BlockBehaviour.Properties.of(Material.WOOD).noOcclusion()), ModCreativeModeTab.FARRIERDECO);
     public static final RegistryObject<Block> GREEN_FARRIERSTABLE_BLOCK = registerblock("green_farrierstable_block",

@@ -20,7 +20,7 @@ public class LimeHoofJack extends Block {
         super(properties);
     }
 
-    private static final VoxelShape SHAPE =  Block.box(0, 0, 0, 16, 11, 16);
+    private static final VoxelShape SHAPE =  Block.box(6, 0, 6, 10, 6, 10);
     @Override
     public VoxelShape getShape(BlockState pState, BlockGetter pLevel, BlockPos pPos, CollisionContext pContext) {
         return SHAPE;
