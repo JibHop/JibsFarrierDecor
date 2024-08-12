@@ -25,6 +25,9 @@
   "block.jfd.gray_hoofjack": "Gray HoofJack",
   "block.jfd.black_hoofjack": "Black HoofJack",
 
+  "block.jfd.farrierstable_block": "Farriers Table",
+  "block.jfd.green_farrierstable_block": "Green Farriers Table",
+
 
   "itemGroup.farrierdeco": "Jibs Farrier Deco"
 }

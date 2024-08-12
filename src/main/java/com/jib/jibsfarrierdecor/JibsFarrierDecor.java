@@ -77,6 +77,8 @@ public class JibsFarrierDecor
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.LIGHT_GRAY_HOOFJACK.get(), RenderType.solid());
 
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.WHITE_HOOFJACK.get(), RenderType.solid());
+
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.FARRIERSTABLE_BLOCK.get(), RenderType.solid());
     }
 
 
