@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "sugar",
+  "ingredients": [
+    {
+      "item": "minecraft:carrot"
+    }
+  ],
+  "result": {
+    "item": "jfd:coconut_treats"
+  }
+}
