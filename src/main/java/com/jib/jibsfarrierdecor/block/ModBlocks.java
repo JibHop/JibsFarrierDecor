@@ -1,10 +1,7 @@
 package com.jib.jibsfarrierdecor.block;
 
 import com.jib.jibsfarrierdecor.JibsFarrierDecor;
-import com.jib.jibsfarrierdecor.block.custom.FarrierstableBlock;
-import com.jib.jibsfarrierdecor.block.custom.GreenFarrierstableBlock;
-import com.jib.jibsfarrierdecor.block.custom.IronHammerBlock;
-import com.jib.jibsfarrierdecor.block.custom.ToolBox;
+import com.jib.jibsfarrierdecor.block.custom.*;
 import com.jib.jibsfarrierdecor.block.custom.hoofjacks.*;
 import com.jib.jibsfarrierdecor.item.ModCreativeModeTab;
 import com.jib.jibsfarrierdecor.item.ModItems;
@@ -72,14 +69,21 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> WHITE_HOOFJACK = registerblock("white_hoofjack",
             () -> new WhiteHoofJack(BlockBehaviour.Properties.of(Material.METAL).noOcclusion()), ModCreativeModeTab.FARRIERDECO);
+
     public static final RegistryObject<Block> FARRIERSTABLE_BLOCK = registerblock("farrierstable_block",
             () -> new FarrierstableBlock(BlockBehaviour.Properties.of(Material.WOOD).noOcclusion()), ModCreativeModeTab.FARRIERDECO);
+
     public static final RegistryObject<Block> GREEN_FARRIERSTABLE_BLOCK = registerblock("green_farrierstable_block",
             () -> new GreenFarrierstableBlock(BlockBehaviour.Properties.of(Material.WOOD).noOcclusion()), ModCreativeModeTab.FARRIERDECO);
+
     public static final RegistryObject<Block> IRON_HAMMER_BLOCK = registerblock("iron_hammer_block",
-            () -> new IronHammerBlock(BlockBehaviour.Properties.of(Material.WOOD).noOcclusion()), ModCreativeModeTab.FARRIERDECO);
+            () -> new IronHammerBlock(BlockBehaviour.Properties.of(Material.METAL).noOcclusion()), ModCreativeModeTab.FARRIERDECO);
+
     public static final RegistryObject<Block> TOOLBOX = registerblock("toolbox",
             () -> new ToolBox(BlockBehaviour.Properties.of(Material.WOOD).noOcclusion()), ModCreativeModeTab.FARRIERDECO);
+
+    public static final RegistryObject<Block> HANGING_HORSESHOES = registerblock("hanging_horseshoes",
+            () -> new HangingHorseshoes(BlockBehaviour.Properties.of(Material.METAL).noOcclusion()), ModCreativeModeTab.FARRIERDECO);
 
 
     private static <T extends Block> RegistryObject<T> registerblock(String name, Supplier<T> block, CreativeModeTab tab) {

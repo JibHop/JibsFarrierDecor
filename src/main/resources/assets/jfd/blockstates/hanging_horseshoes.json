@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": {"model": "jfd:block/hanging_horseshoes" },
+    "facing=east": {"model": "jfd:block/hanging_horseshoes", "y": 90 },
+    "facing=south": {"model": "jfd:block/hanging_horseshoes", "y": 180 },
+    "facing=west": {"model": "jfd:block/hanging_horseshoes", "y": 270 }
+  }
+}
