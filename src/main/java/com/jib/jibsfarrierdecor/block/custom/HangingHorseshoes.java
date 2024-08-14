@@ -10,12 +10,8 @@ import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.StateDefinition;
 import net.minecraft.world.level.block.state.properties.BlockStateProperties;
 import net.minecraft.world.level.block.state.properties.DirectionProperty;
-import net.minecraft.world.phys.shapes.BooleanOp;
 import net.minecraft.world.phys.shapes.CollisionContext;
-import net.minecraft.world.phys.shapes.Shapes;
 import net.minecraft.world.phys.shapes.VoxelShape;
-
-import java.util.stream.Stream;
 
 public class HangingHorseshoes extends Block {
     public static final DirectionProperty FACING = BlockStateProperties.HORIZONTAL_FACING;
@@ -24,15 +20,7 @@ public class HangingHorseshoes extends Block {
         super(pProperties);
     }
 
-    private static final VoxelShape SHAPE =  Stream.of(
-            Block.box(10, 6, 15, 11, 7, 16),
-            Block.box(11, 6, 15, 12, 9, 16),
-            Block.box(9, 6, 15, 10, 9, 16),
-            Block.box(5, 8, 15, 6, 9, 16),
-            Block.box(6, 8, 15, 7, 11, 16),
-            Block.box(4, 8, 15, 5, 11, 16)
-    ).reduce((v1, v2) -> Shapes.join(v1, v2, BooleanOp.OR)).get();
-
+    private static final VoxelShape SHAPE =  Block.box(0, 0, 15, 16, 16, 16);
 
     @Override
     public VoxelShape getShape(BlockState pState, BlockGetter pLevel, BlockPos pPos, CollisionContext pContext) {
@@ -59,11 +47,5 @@ public class HangingHorseshoes extends Block {
     @Override
     protected void createBlockStateDefinition(StateDefinition.Builder<Block, BlockState> pBuilder) {
         pBuilder.add(FACING);
-    }
-
-    private static class IBooleanFunction {
-    }
-
-    private static class VoxelShapes {
     }
 }
