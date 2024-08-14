@@ -2,11 +2,16 @@
   "item.jfd.horseshoe": "Horseshoe",
   "item.jfd.hoof_leveller": "Hoof Rasp",
   "item.jfd.hoof_nippers": "Hoof Nipper",
+  "item.jfd.hoof_knife": "Hoof Knife",
+  "item.jfd.hoof_tester": "Hoof Tester",
+  "item.jfd.nail_puller": "Nail Puller",
+  "item.jfd.gooseneck_clencher": "Gooseneck Clench",
+  "item.jfd.clencher": "Clench",
 
   "item.jfd.bananacarrotapplesauce_treats": "BananaCarrotApplesauce Treats",
   "item.jfd.coconut_treats": "Coconut Treats",
   "item.jfd.mints": "Mints",
-  "item.jfs.apple": "4pple",
+  "item.jfd.apple": "4pple",
 
   "block.jfd.brown_hoofjack": "Brown HoofJack",
   "block.jfd.red_hoofjack": "Red HoofJack",

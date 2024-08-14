@@ -20,6 +20,22 @@ public static final RegistryObject<Item> HORSESHOE = ITEMS.register("horseshoe",
     public static final RegistryObject<Item> HOOF_NIPPERS = ITEMS.register("hoof_nippers",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.FARRIERDECO)));
 
+    public static final RegistryObject<Item> HOOF_TESTER = ITEMS.register("hoof_tester",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.FARRIERDECO)));
+
+    public static final RegistryObject<Item> HOOF_KNIFE = ITEMS.register("hoof_knife",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.FARRIERDECO)));
+
+    public static final RegistryObject<Item> NAIL_PULLER = ITEMS.register("nail_puller",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.FARRIERDECO)));
+
+    public static final RegistryObject<Item> GOOSENECK_CLENCHER = ITEMS.register("gooseneck_clencher",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.FARRIERDECO)));
+
+    public static final RegistryObject<Item> CLENCHER = ITEMS.register("clencher",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.FARRIERDECO)));
+
+
     public static final RegistryObject<Item> BANANACARROTAPPLESAUCE_TREATS = ITEMS.register("bananacarrotapplesauce_treats",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.FARRIERDECO).food(ModFoods.BANANACARROTAPPLESAUCE_TREATS)));
 
