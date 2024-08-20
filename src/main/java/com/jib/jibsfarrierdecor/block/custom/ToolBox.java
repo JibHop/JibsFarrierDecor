@@ -20,7 +20,7 @@ public class ToolBox extends Block {
         super(pProperties);
     }
 
-    private static final VoxelShape SHAPE =  Block.box(0, 0, 0, 16, 10, 16);
+    private static final VoxelShape SHAPE =  Block.box(3, 0, 3, 13, 10, 13);
 
     @Override
     public VoxelShape getShape(BlockState pState, BlockGetter pLevel, BlockPos pPos, CollisionContext pContext) {

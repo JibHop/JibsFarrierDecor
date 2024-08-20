@@ -15,10 +15,10 @@ import net.minecraft.world.phys.shapes.VoxelShape;
 
 import java.util.stream.Stream;
 
-public class HangingHorseshoes extends Block {
+public class HangingHorseshoesSilver extends Block {
     public static final DirectionProperty FACING = BlockStateProperties.HORIZONTAL_FACING;
 
-    public HangingHorseshoes(Properties pProperties) {
+    public HangingHorseshoesSilver(Properties pProperties) {
         super(pProperties);
     }
 

@@ -6,7 +6,7 @@ Description: Rendering overlay
 
 java.lang.IllegalArgumentException: Cannot get property DirectionProperty{name=facing, clazz=class net.minecraft.core.Direction, values=[north, east, south, west, up, down]} as it does not exist in Block{jfd:hanging_horseshoes}
 	at net.minecraft.world.level.block.state.StateHolder.getValue(StateHolder.java:98) ~[forge-1.18.2-40.2.0_mapped_parchment_2022.11.06-1.18.2.jar%2379!/:?] {re:classloading}
-	at com.jib.jibsfarrierdecor.block.custom.HangingHorseshoes.getShape(HangingHorseshoes.java:40) ~[%2384!/:?] {re:classloading}
+	at com.jib.jibsfarrierdecor.block.custom.HangingHorseshoesSilver.getShape(HangingHorseshoes.java:40) ~[%2384!/:?] {re:classloading}
 	at net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase.getShape(BlockBehaviour.java:589) ~[forge-1.18.2-40.2.0_mapped_parchment_2022.11.06-1.18.2.jar%2379!/:?] {re:classloading}
 	at net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase.getShape(BlockBehaviour.java:585) ~[forge-1.18.2-40.2.0_mapped_parchment_2022.11.06-1.18.2.jar%2379!/:?] {re:classloading}
 	at net.minecraft.world.level.block.Block.propagatesSkylightDown(Block.java:244) ~[forge-1.18.2-40.2.0_mapped_parchment_2022.11.06-1.18.2.jar%2379!/:?] {re:classloading,pl:accesstransformer:B}
@@ -44,7 +44,7 @@ A detailed walkthrough of the error, its code path and all known details is as f
 Thread: Render thread
 Stacktrace:
 	at net.minecraft.world.level.block.state.StateHolder.getValue(StateHolder.java:98) ~[forge-1.18.2-40.2.0_mapped_parchment_2022.11.06-1.18.2.jar%2379!/:?] {re:classloading}
-	at com.jib.jibsfarrierdecor.block.custom.HangingHorseshoes.getShape(HangingHorseshoes.java:40) ~[%2384!/:?] {re:classloading}
+	at com.jib.jibsfarrierdecor.block.custom.HangingHorseshoesSilver.getShape(HangingHorseshoes.java:40) ~[%2384!/:?] {re:classloading}
 	at net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase.getShape(BlockBehaviour.java:589) ~[forge-1.18.2-40.2.0_mapped_parchment_2022.11.06-1.18.2.jar%2379!/:?] {re:classloading}
 	at net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase.getShape(BlockBehaviour.java:585) ~[forge-1.18.2-40.2.0_mapped_parchment_2022.11.06-1.18.2.jar%2379!/:?] {re:classloading}
 	at net.minecraft.world.level.block.Block.propagatesSkylightDown(Block.java:244) ~[forge-1.18.2-40.2.0_mapped_parchment_2022.11.06-1.18.2.jar%2379!/:?] {re:classloading,pl:accesstransformer:B}

@@ -82,8 +82,8 @@ public class ModBlocks {
     public static final RegistryObject<Block> TOOLBOX = registerblock("toolbox",
             () -> new ToolBox(BlockBehaviour.Properties.of(Material.WOOD).noOcclusion()), ModCreativeModeTab.FARRIERDECO);
 
-    public static final RegistryObject<Block> HANGING_HORSESHOES = registerblock("hanging_horseshoes",
-            () -> new HangingHorseshoes(BlockBehaviour.Properties.of(Material.METAL).noOcclusion()), ModCreativeModeTab.FARRIERDECO);
+    public static final RegistryObject<Block> HANGING_HORSESHOES_SILVER = registerblock("hanging_horseshoes_silver",
+            () -> new HangingHorseshoesSilver(BlockBehaviour.Properties.of(Material.METAL).noOcclusion()), ModCreativeModeTab.FARRIERDECO);
 
 
     private static <T extends Block> RegistryObject<T> registerblock(String name, Supplier<T> block, CreativeModeTab tab) {

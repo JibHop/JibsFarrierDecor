@@ -88,7 +88,7 @@ Details:
 Stacktrace:
 	at net.minecraft.world.phys.shapes.Shapes.box(Shapes.java:48) ~[forge-1.18.2-40.2.0_mapped_parchment_2022.11.06-1.18.2.jar%2379!/:?] {re:classloading}
 	at net.minecraft.world.level.block.Block.box(Block.java:138) ~[forge-1.18.2-40.2.0_mapped_parchment_2022.11.06-1.18.2.jar%2379!/:?] {re:classloading,pl:accesstransformer:B}
-	at com.jib.jibsfarrierdecor.block.custom.HangingHorseshoes.<clinit>(HangingHorseshoes.java:23) ~[%2384!/:?] {re:classloading}
+	at com.jib.jibsfarrierdecor.block.custom.HangingHorseshoesSilver.<clinit>(HangingHorseshoes.java:23) ~[%2384!/:?] {re:classloading}
 	at com.jib.jibsfarrierdecor.block.ModBlocks.lambda$static$20(ModBlocks.java:86) ~[%2384!/:?] {re:classloading}
 	at net.minecraftforge.registries.DeferredRegister.lambda$register$0(DeferredRegister.java:214) ~[forge-1.18.2-40.2.0_mapped_parchment_2022.11.06-1.18.2.jar%2378%2385!/:?] {re:classloading}
 	at net.minecraftforge.registries.DeferredRegister.addEntries(DeferredRegister.java:446) ~[forge-1.18.2-40.2.0_mapped_parchment_2022.11.06-1.18.2.jar%2378%2385!/:?] {re:classloading}
