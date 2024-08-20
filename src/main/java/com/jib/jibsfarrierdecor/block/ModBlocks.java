@@ -85,6 +85,15 @@ public class ModBlocks {
     public static final RegistryObject<Block> HANGING_HORSESHOES_SILVER = registerblock("hanging_horseshoes_silver",
             () -> new HangingHorseshoesSilver(BlockBehaviour.Properties.of(Material.METAL).noOcclusion()), ModCreativeModeTab.FARRIERDECO);
 
+    public static final RegistryObject<Block> HANGING_HORSESHOES_BRONZE = registerblock("hanging_horseshoes_bronze",
+            () -> new HangingHorseshoesBronze(BlockBehaviour.Properties.of(Material.METAL).noOcclusion()), ModCreativeModeTab.FARRIERDECO);
+
+    public static final RegistryObject<Block> HANGING_HORSESHOES_GOLD = registerblock("hanging_horseshoes_gold",
+            () -> new HangingHorseshoesGold(BlockBehaviour.Properties.of(Material.METAL).noOcclusion()), ModCreativeModeTab.FARRIERDECO);
+
+    public static final RegistryObject<Block> HANGING_HORSESHOES_GREEN = registerblock("hanging_horseshoes_green",
+            () -> new HangingHorseshoesGreen(BlockBehaviour.Properties.of(Material.METAL).noOcclusion()), ModCreativeModeTab.FARRIERDECO);
+
 
     private static <T extends Block> RegistryObject<T> registerblock(String name, Supplier<T> block, CreativeModeTab tab) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

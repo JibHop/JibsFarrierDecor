@@ -1,10 +1,10 @@
 {
   "variants": {
-    "facing=north": {"model": "jfd:block/hanging_horseshoes" },
-    "facing=east": {"model": "jfd:block/hanging_horseshoes", "y": 90 },
-    "facing=south": {"model": "jfd:block/hanging_horseshoes", "y": 180 },
-    "facing=west": {"model": "jfd:block/hanging_horseshoes", "y": 270 },
-    "facing=up": {"model": "jfd:block/hanging_horseshoes", "x": 270 },
-    "facing=down": {"model": "jfd:block/hanging_horseshoes", "x": 90 }
+    "facing=north": {"model": "jfd:block/hanging_horseshoes_silver" },
+    "facing=east": {"model": "jfd:block/hanging_horseshoes_silver", "y": 90 },
+    "facing=south": {"model": "jfd:block/hanging_horseshoes_silver", "y": 180 },
+    "facing=west": {"model": "jfd:block/hanging_horseshoes_silver", "y": 270 },
+    "facing=up": {"model": "jfd:block/hanging_horseshoes_silver", "x": 270 },
+    "facing=down": {"model": "jfd:block/hanging_horseshoes_silver", "x": 90 }
   }
 }
