@@ -1,0 +1,160 @@
+---- Minecraft Crash Report ----
+// This doesn't make any sense!
+
+Time: 20/08/2024, 20:51
+Description: Rendering overlay
+
+java.lang.IllegalArgumentException: Cannot get property DirectionProperty{name=facing, clazz=class net.minecraft.core.Direction, values=[north, east, south, west, up, down]} as it does not exist in Block{jfd:hanging_horseshoes}
+	at net.minecraft.world.level.block.state.StateHolder.getValue(StateHolder.java:98) ~[forge-1.18.2-40.2.0_mapped_parchment_2022.11.06-1.18.2.jar%2379!/:?] {re:classloading}
+	at com.jib.jibsfarrierdecor.block.custom.HangingHorseshoes.getShape(HangingHorseshoes.java:40) ~[%2384!/:?] {re:classloading}
+	at net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase.getShape(BlockBehaviour.java:589) ~[forge-1.18.2-40.2.0_mapped_parchment_2022.11.06-1.18.2.jar%2379!/:?] {re:classloading}
+	at net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase.getShape(BlockBehaviour.java:585) ~[forge-1.18.2-40.2.0_mapped_parchment_2022.11.06-1.18.2.jar%2379!/:?] {re:classloading}
+	at net.minecraft.world.level.block.Block.propagatesSkylightDown(Block.java:244) ~[forge-1.18.2-40.2.0_mapped_parchment_2022.11.06-1.18.2.jar%2379!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase$Cache.<init>(BlockBehaviour.java:824) ~[forge-1.18.2-40.2.0_mapped_parchment_2022.11.06-1.18.2.jar%2379!/:?] {re:classloading}
+	at net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase.initCache(BlockBehaviour.java:454) ~[forge-1.18.2-40.2.0_mapped_parchment_2022.11.06-1.18.2.jar%2379!/:?] {re:classloading}
+	at net.minecraftforge.registries.GameData$BlockCallbacks.onBake(GameData.java:518) ~[forge-1.18.2-40.2.0_mapped_parchment_2022.11.06-1.18.2.jar%2378%2385!/:?] {re:classloading}
+	at net.minecraftforge.registries.ForgeRegistry.bake(ForgeRegistry.java:591) ~[forge-1.18.2-40.2.0_mapped_parchment_2022.11.06-1.18.2.jar%2378%2385!/:?] {re:classloading}
+	at net.minecraftforge.registries.GameData.lambda$freezeData$9(GameData.java:297) ~[forge-1.18.2-40.2.0_mapped_parchment_2022.11.06-1.18.2.jar%2378%2385!/:?] {re:classloading}
+	at com.google.common.collect.HashBiMap.forEach(HashBiMap.java:572) ~[guava-31.0.1-jre.jar%232!/:?] {}
+	at net.minecraftforge.registries.GameData.freezeData(GameData.java:295) ~[forge-1.18.2-40.2.0_mapped_parchment_2022.11.06-1.18.2.jar%2378%2385!/:?] {re:classloading}
+	at net.minecraftforge.common.ForgeStatesProvider.lambda$new$5(ForgeStatesProvider.java:33) ~[forge-1.18.2-40.2.0_mapped_parchment_2022.11.06-1.18.2.jar%2378%2385!/:?] {re:classloading}
+	at net.minecraftforge.fml.ModLoader.lambda$dispatchAndHandleError$20(ModLoader.java:186) ~[fmlcore-1.18.2-40.2.0.jar%2383!/:?] {}
+	at java.util.Optional.ifPresent(Optional.java:178) ~[?:?] {}
+	at net.minecraftforge.fml.ModLoader.dispatchAndHandleError(ModLoader.java:186) ~[fmlcore-1.18.2-40.2.0.jar%2383!/:?] {}
+	at net.minecraftforge.fml.ModLoader.lambda$finishMods$17(ModLoader.java:176) ~[fmlcore-1.18.2-40.2.0.jar%2383!/:?] {}
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?] {}
+	at net.minecraftforge.fml.ModLoader.finishMods(ModLoader.java:176) ~[fmlcore-1.18.2-40.2.0.jar%2383!/:?] {}
+	at net.minecraftforge.client.loading.ClientModLoader.lambda$finishModLoading$6(ClientModLoader.java:126) ~[forge-1.18.2-40.2.0_mapped_parchment_2022.11.06-1.18.2.jar%2378%2385!/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraftforge.client.loading.ClientModLoader.lambda$createRunnableWithCatch$4(ClientModLoader.java:112) ~[forge-1.18.2-40.2.0_mapped_parchment_2022.11.06-1.18.2.jar%2378%2385!/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraftforge.client.loading.ClientModLoader.finishModLoading(ClientModLoader.java:126) ~[forge-1.18.2-40.2.0_mapped_parchment_2022.11.06-1.18.2.jar%2378%2385!/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraftforge.client.loading.ClientModLoader.lambda$onResourceReload$3(ClientModLoader.java:105) ~[forge-1.18.2-40.2.0_mapped_parchment_2022.11.06-1.18.2.jar%2378%2385!/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at java.util.concurrent.CompletableFuture$UniRun.tryFire(CompletableFuture.java:787) ~[?:?] {}
+	at java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483) ~[?:?] {}
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?] {}
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?] {}
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?] {}
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?] {}
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?] {}
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Render thread
+Stacktrace:
+	at net.minecraft.world.level.block.state.StateHolder.getValue(StateHolder.java:98) ~[forge-1.18.2-40.2.0_mapped_parchment_2022.11.06-1.18.2.jar%2379!/:?] {re:classloading}
+	at com.jib.jibsfarrierdecor.block.custom.HangingHorseshoes.getShape(HangingHorseshoes.java:40) ~[%2384!/:?] {re:classloading}
+	at net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase.getShape(BlockBehaviour.java:589) ~[forge-1.18.2-40.2.0_mapped_parchment_2022.11.06-1.18.2.jar%2379!/:?] {re:classloading}
+	at net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase.getShape(BlockBehaviour.java:585) ~[forge-1.18.2-40.2.0_mapped_parchment_2022.11.06-1.18.2.jar%2379!/:?] {re:classloading}
+	at net.minecraft.world.level.block.Block.propagatesSkylightDown(Block.java:244) ~[forge-1.18.2-40.2.0_mapped_parchment_2022.11.06-1.18.2.jar%2379!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase$Cache.<init>(BlockBehaviour.java:824) ~[forge-1.18.2-40.2.0_mapped_parchment_2022.11.06-1.18.2.jar%2379!/:?] {re:classloading}
+	at net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase.initCache(BlockBehaviour.java:454) ~[forge-1.18.2-40.2.0_mapped_parchment_2022.11.06-1.18.2.jar%2379!/:?] {re:classloading}
+	at net.minecraftforge.registries.GameData$BlockCallbacks.onBake(GameData.java:518) ~[forge-1.18.2-40.2.0_mapped_parchment_2022.11.06-1.18.2.jar%2378%2385!/:?] {re:classloading}
+	at net.minecraftforge.registries.ForgeRegistry.bake(ForgeRegistry.java:591) ~[forge-1.18.2-40.2.0_mapped_parchment_2022.11.06-1.18.2.jar%2378%2385!/:?] {re:classloading}
+	at net.minecraftforge.registries.GameData.lambda$freezeData$9(GameData.java:297) ~[forge-1.18.2-40.2.0_mapped_parchment_2022.11.06-1.18.2.jar%2378%2385!/:?] {re:classloading}
+	at com.google.common.collect.HashBiMap.forEach(HashBiMap.java:572) ~[guava-31.0.1-jre.jar%232!/:?] {}
+	at net.minecraftforge.registries.GameData.freezeData(GameData.java:295) ~[forge-1.18.2-40.2.0_mapped_parchment_2022.11.06-1.18.2.jar%2378%2385!/:?] {re:classloading}
+	at net.minecraftforge.common.ForgeStatesProvider.lambda$new$5(ForgeStatesProvider.java:33) ~[forge-1.18.2-40.2.0_mapped_parchment_2022.11.06-1.18.2.jar%2378%2385!/:?] {re:classloading}
+-- Overlay render details --
+Details:
+	Overlay name: net.minecraft.client.gui.screens.LoadingOverlay
+Stacktrace:
+	at net.minecraft.client.renderer.GameRenderer.render(GameRenderer.java:882) ~[forge-1.18.2-40.2.0_mapped_parchment_2022.11.06-1.18.2.jar%2379!/:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1046) ~[forge-1.18.2-40.2.0_mapped_parchment_2022.11.06-1.18.2.jar%2379!/:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.run(Minecraft.java:665) ~[forge-1.18.2-40.2.0_mapped_parchment_2022.11.06-1.18.2.jar%2379!/:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.main.Main.main(Main.java:205) ~[forge-1.18.2-40.2.0_mapped_parchment_2022.11.06-1.18.2.jar%2379!/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?] {}
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?] {}
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?] {}
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?] {}
+	at net.minecraftforge.fml.loading.targets.ForgeClientUserdevLaunchHandler.lambda$launchService$0(ForgeClientUserdevLaunchHandler.java:24) ~[fmlloader-1.18.2-40.2.0.jar%230!/:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37) [modlauncher-9.1.3.jar%2311!/:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-9.1.3.jar%2311!/:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-9.1.3.jar%2311!/:?] {}
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:106) [modlauncher-9.1.3.jar%2311!/:?] {}
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:77) [modlauncher-9.1.3.jar%2311!/:?] {}
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-9.1.3.jar%2311!/:?] {}
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-9.1.3.jar%2311!/:?] {}
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:149) [bootstraplauncher-1.0.0.jar:?] {}
+
+
+-- Last reload --
+Details:
+	Reload number: 1
+	Reload reason: initial
+	Finished: No
+	Packs: Default, Mod Resources
+
+-- System Details --
+Details:
+	Minecraft Version: 1.18.2
+	Minecraft Version ID: 1.18.2
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 17.0.10, Eclipse Adoptium
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Eclipse Adoptium
+	Memory: 367453840 bytes (350 MiB) / 1608515584 bytes (1534 MiB) up to 3739222016 bytes (3566 MiB)
+	CPUs: 4
+	Processor Vendor: AuthenticAMD
+	Processor Name: AMD Ryzen 3 3200G with Radeon Vega Graphics    
+	Identifier: AuthenticAMD Family 23 Model 24 Stepping 1
+	Microarchitecture: Zen / Zen+
+	Frequency (GHz): 3.59
+	Number of physical packages: 1
+	Number of physical CPUs: 4
+	Number of logical CPUs: 4
+	Graphics card #0 name: AMD Radeon(TM) Vega 8 Graphics
+	Graphics card #0 vendor: Advanced Micro Devices, Inc. (0x1002)
+	Graphics card #0 VRAM (MB): 2048.00
+	Graphics card #0 deviceId: 0x15d8
+	Graphics card #0 versionInfo: DriverVersion=31.0.21912.14
+	Memory slot #0 capacity (MB): 8192.00
+	Memory slot #0 clockSpeed (GHz): 2.67
+	Memory slot #0 type: DDR4
+	Memory slot #1 capacity (MB): 8192.00
+	Memory slot #1 clockSpeed (GHz): 2.67
+	Memory slot #1 type: DDR4
+	Virtual memory max (MB): 22965.36
+	Virtual memory used (MB): 18136.34
+	Swap memory total (MB): 8704.00
+	Swap memory used (MB): 987.98
+	JVM Flags: 1 total; -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump
+	Launched Version: MOD_DEV
+	Backend library: LWJGL version 3.2.2 SNAPSHOT
+	Backend API: AMD Radeon(TM) Vega 8 Graphics GL version 3.2.0 Core Profile Context 24.3.1.240216, ATI Technologies Inc.
+	Window size: 854x480
+	GL Caps: Using framebuffer using OpenGL 3.2
+	GL debug messages: 
+	Using VBOs: Yes
+	Is Modded: Definitely; Client brand changed to 'forge'
+	Type: Client (map_client.txt)
+	Graphics mode: fancy
+	Resource Packs: 
+	Current Language: English (US)
+	CPU: 4x AMD Ryzen 3 3200G with Radeon Vega Graphics 
+	ModLauncher: 9.1.3+9.1.3+main.9b69c82a
+	ModLauncher launch target: forgeclientuserdev
+	ModLauncher naming: mcp
+	ModLauncher services: 
+		 mixin PLUGINSERVICE 
+		 eventbus PLUGINSERVICE 
+		 slf4jfixer PLUGINSERVICE 
+		 object_holder_definalize PLUGINSERVICE 
+		 runtime_enum_extender PLUGINSERVICE 
+		 capability_token_subclass PLUGINSERVICE 
+		 accesstransformer PLUGINSERVICE 
+		 runtimedistcleaner PLUGINSERVICE 
+		 mixin TRANSFORMATIONSERVICE 
+		 fml TRANSFORMATIONSERVICE 
+	FML Language Providers: 
+		minecraft@1.0
+		lowcodefml@null
+		javafml@null
+	Mod List: 
+		forge-1.18.2-40.2.0_mapped_parchment_2022.11.06-1.|Minecraft                     |minecraft                     |1.18.2              |DONE      |Manifest: a1:d4:5e:04:4f:d3:d6:e0:7b:37:97:cf:77:b0:de:ad:4a:47:ce:8c:96:49:5f:0a:cf:8c:ae:b2:6d:4b:8a:3f
+		                                                  |Forge                         |forge                         |40.2.0              |DONE      |Manifest: NOSIGNATURE
+		main                                              |JibsFarrierDecor              |jfd                           |0.0NONE             |DONE      |Manifest: NOSIGNATURE
+		jei-1.18.2-9.7.2.281_mapped_parchment_2022.11.06-1|Just Enough Items             |jei                           |9.7.2.281           |DONE      |Manifest: NOSIGNATURE
+	Crash Report UUID: b0337694-e8e8-4554-8309-1d4d1998f67f
+	FML: 40.2
+	Forge: net.minecraftforge:40.2.0

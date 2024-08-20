@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/jibsfarrierdecor-1.18.main.iml" filepath="$PROJECT_DIR$/.idea/modules/jibsfarrierdecor-1.18.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/jibsfarrierdecor-1.18.test.iml" filepath="$PROJECT_DIR$/.idea/modules/jibsfarrierdecor-1.18.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/jibsfarrierdecor.main.iml" filepath="$PROJECT_DIR$/.idea/modules/jibsfarrierdecor.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/jibsfarrierdecor.test.iml" filepath="$PROJECT_DIR$/.idea/modules/jibsfarrierdecor.test.iml" />
     </modules>
