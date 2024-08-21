@@ -86,6 +86,10 @@ public class JibsFarrierDecor
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.HANGING_HORSESHOES_GOLD.get(), RenderType.solid());
 
         ItemBlockRenderTypes.setRenderLayer(ModBlocks.HANGING_HORSESHOES_GREEN.get(), RenderType.solid());
+
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.WELLINGTON_BOOTS_NEAT.get(), RenderType.solid());
+
+        ItemBlockRenderTypes.setRenderLayer(ModBlocks.WELLINGTON_BOOTS_MESSY.get(), RenderType.solid());
     }
 
 

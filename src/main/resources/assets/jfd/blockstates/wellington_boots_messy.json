@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "facing=north": {"model": "jfd:block/wellington_boots_messy" },
+    "facing=east": {"model": "jfd:block/wellington_boots_messy", "y": 90 },
+    "facing=south": {"model": "jfd:block/wellington_boots_messy", "y": 180 },
+    "facing=west": {"model": "jfd:block/wellington_boots_messy", "y": 270 },
+    "facing=up": {"model": "jfd:block/wellington_boots_messy" },
+    "facing=down": {"model": "jfd:block/wellington_boots_messy" }
+  }
+}
