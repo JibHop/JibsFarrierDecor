@@ -9,6 +9,6 @@ public class ModFoods {
 
     public static final FoodProperties MINTS = (new FoodProperties.Builder()).nutrition(2).saturationMod(0.1F).build();
 
-
+    public static final FoodProperties HOOF_TRIMMINGS = (new FoodProperties.Builder()).nutrition(2).saturationMod(0.1F).build();
 
 }
