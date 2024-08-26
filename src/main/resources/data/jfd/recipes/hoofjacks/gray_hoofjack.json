@@ -1,17 +1,23 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "X",
-    "#"
+    "AAA",
+    " B ",
+    " CE"
   ],
   "key": {
-    "#": {
-      "item": "minecraft:gray_concrete"
+    "A": {
+      "item": "minecraft:iron_nugget"
     },
-    "X":
-      {
-        "item": "minecraft:iron_ingot"
-      }
+    "B": {
+      "item": "minecraft:iron_ingot"
+    },
+    "C": {
+      "item": "minecraft:stone"
+    },
+    "E": {
+      "item": "minecraft:gray_dye"
+    }
   },
   "result": {
     "item": "jfd:gray_hoofjack"

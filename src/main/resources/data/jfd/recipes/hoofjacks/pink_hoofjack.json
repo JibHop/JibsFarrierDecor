@@ -1,17 +1,23 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "X",
-    "#"
+    "AAA",
+    " B ",
+    " CE"
   ],
   "key": {
-    "#": {
-      "item": "minecraft:pink_concrete"
+    "A": {
+      "item": "minecraft:iron_nugget"
     },
-    "X":
-      {
-        "item": "minecraft:iron_ingot"
-      }
+    "B": {
+      "item": "minecraft:iron_ingot"
+    },
+    "C": {
+      "item": "minecraft:stone"
+    },
+    "E": {
+      "item": "minecraft:pink_dye"
+    }
   },
   "result": {
     "item": "jfd:pink_hoofjack"

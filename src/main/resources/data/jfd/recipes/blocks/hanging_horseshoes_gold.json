@@ -1,7 +1,7 @@
 {
   "type": "minecraft:stonecutting",
   "ingredient": {
-    "item": "minecraft:iron_ingot"
+    "item": "minecraft:gold_ingot"
   },
   "result": "jfd:hanging_horseshoes_gold",
   "count": 1

@@ -1,17 +1,20 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "X",
-    "#"
+    "A",
+    "B",
+    "C"
   ],
   "key": {
-    "#": {
-      "item": "minecraft:magenta_wool"
+    "A": {
+      "item": "minecraft:iron_nugget"
     },
-    "X":
-      {
-        "item": "minecraft:iron_ingot"
-      }
+    "B": {
+      "item": "minecraft:stick"
+    },
+    "C": {
+      "item": "minecraft:magenta_dye"
+    }
   },
   "result": {
     "item": "jfd:magenta_hoof_pick"

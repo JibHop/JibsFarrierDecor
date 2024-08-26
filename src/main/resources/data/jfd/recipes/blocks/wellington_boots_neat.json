@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "jfd:wellington_boots_messy"
+    }
+  ],
+  "result": {
+    "item": "jfd:wellington_boots_neat"
+  }
+}

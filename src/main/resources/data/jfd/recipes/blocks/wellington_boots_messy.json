@@ -1,22 +1,18 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "A",
-    "B",
-    "C"
+    "B B",
+    "BCB"
   ],
   "key": {
-    "A": {
-      "item": "minecraft:iron_nugget"
-    },
     "B": {
-      "item": "minecraft:stick"
+      "item": "minecraft:leather"
     },
     "C": {
       "item": "minecraft:black_dye"
     }
   },
   "result": {
-    "item": "jfd:black_hoof_pick"
+    "item": "jfd:wellington_boots_messy"
   }
 }
