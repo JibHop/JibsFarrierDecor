@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "X",
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:cyan_wool"
+    },
+    "X":
+      {
+        "item": "minecraft:iron_ingot"
+      }
+  },
+  "result": {
+    "item": "jfd:cyan_hoof_pick"
+  }
+}
